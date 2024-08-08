@@ -1,0 +1,1 @@
+This is my first attempt to do data recognition in images, retrain the YOLO neural network and recognize the keys I need on a speedrun video.  Next, take these inputs and train your neural network on them so that it can complete the game itself.
