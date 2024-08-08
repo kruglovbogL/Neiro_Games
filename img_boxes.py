@@ -27,4 +27,3 @@ cv2.imshow('countour',img_contou)
 
 cv2.waitKey()
 cv2.destroyAllWindows()
-

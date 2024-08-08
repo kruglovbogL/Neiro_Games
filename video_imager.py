@@ -14,5 +14,7 @@ def video_to_frames(video, path_output_dir):
             break
     cv2.destroyAllWindows()
     vidcap.release()
-video_to_frames('ENDER LILIES Speedrun Any% 16_58 (Ending A) ver1.1.5.mp4', 'Image_Enemy_Lilies/images_speed')
+
+
+video_to_frames('ENDER LILIES Speedrun Any.mp4', 'Image_Enemy_Lilies/images_speed')  # видео и целевая папка
 print('DONE!!')

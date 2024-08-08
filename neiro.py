@@ -41,8 +41,7 @@ from ultralytics.utils.plotting import Annotator, colors
 # #ЗАГРУЗКА МОЕЙ модели И РАСПОЗНАВАНИЕ ПРЕДМЕНА С ПОМОЩЬЮ ОБУЧЕННОЙ!!!! СЕТИ
 model = YOLO("best.pt")
 
-
-cap = cv2.VideoCapture("bandicam 2024-06-25 19-59-54-004.mp4")
+cap = cv2.VideoCapture("ENDER LILIES Speedrun Any.mp4")
 w, h, fps = (int(cap.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FRAME_HEIGHT, cv2.CAP_PROP_FPS))
 writer = cv2.VideoWriter("Ultralytics circle annotation.avi", cv2.VideoWriter_fourcc(*"MJPG"), fps, (w, h))
 
